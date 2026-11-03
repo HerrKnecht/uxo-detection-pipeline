@@ -19,6 +19,6 @@ jobs:
       - name: Install
         run: pip install -e ".[dev]"
       - name: Run tests
-        run: pytest -q
+        run: python -m pytest -q
       - name: Smoke test dataset generator
         run: python scripts/generate_dataset.py --out /tmp/ds --n-surface 2 --n-borehole 1

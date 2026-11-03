@@ -44,7 +44,7 @@ cd uxo-detection-pipeline
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -e ".[dev]"
 
-pytest                                   # physics tests
+python -m pytest                         # physics tests
 python scripts/demo_plots.py             # example figures -> docs/img/
 python scripts/generate_dataset.py --out data/v1 --n-surface 200 --n-borehole 50 --seed 42
 ```
