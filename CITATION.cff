@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "uxo-detection-pipeline: Pipeline for unexploded ordnance detection and classification from geophysical survey data"
+authors:
+  - family-names: Schygulla
+    given-names: Henrik
+version: 0.1.0
+date-released: 2026-11-03
+license: MIT
+repository-code: "https://github.com/HerrKnecht/uxo-detection-pipeline"
+keywords:
+  - unexploded ordnance
+  - UXO
+  - magnetometry
+  - borehole magnetometry
+  - synthetic data
+  - machine learning

@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Generierte Datensätze nicht einchecken (reproduzierbar über Seed)
+data/*
+!data/.gitkeep
